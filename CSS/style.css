@@ -3,12 +3,19 @@ body{
     margin: 0;
     padding: 0;
 }
+@media (max-width: 600px){
+    #title>*{
+        font-size:1.9rem;
+       }
+
+}
 #main{
     display: flex;
     flex-direction: column;
     height: fit-content;
     justify-content: center;
     align-items: center;
+    height: 80%;
 }
 /* Title */
 #title{
@@ -61,7 +68,6 @@ body{
 #gameContainer{
     margin-top: 50px;
     display: flex;
-    border:2px solid green;
     width:100%;
 }
 #options{
@@ -69,7 +75,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border :2px solid green;
 }
 .option{
     opacity: 0.6;
@@ -88,7 +93,6 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border:2px solid green;
     position: relative;
     left:30px;
     width:76%;
@@ -99,5 +103,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border :2px solid green;
+}
+@media (max-width: 600px){
+    .contentCell{
+        width:80px;
+    }
+    #fightDisplay{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+
 }
