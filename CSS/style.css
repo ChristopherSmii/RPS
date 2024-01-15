@@ -1,0 +1,103 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+/* Title */
+#title{
+    display: flex;
+    margin-top: 10px;
+}
+#titleRock{
+    color: red;
+    transform: rotate(-15deg);
+    margin-top: 5px;
+}
+#titlePaper{
+    color: blue;
+    margin-left:14px;
+    margin-right:14px;
+}
+#titleScissors{
+    color: green;
+    transform: rotate(15deg);
+    margin-top: 10px;
+}
+.textBorder{
+    font-size: 3rem;
+    user-select: none;
+    text-shadow: 2px 0 #000, -2px 0 #000,0px 2px #000, 0px -2px #000;
+}
+/* Score */
+#scoreContainer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+}
+.scoreCell{
+    border:2px solid white;
+    text-align: center;
+    padding: 8px;
+    color: red;
+    text-shadow: 2px 0 #fff, -2px 0 #fff,0px 2px #fff, 0px -2px #fff;
+    border-radius: 8px;
+    width:90px
+}
+.scoreCell h1{
+    font-size: 2rem;
+}
+.scoreCell h2{
+    color:red;
+}
+/* Game */
+#gameContainer{
+    margin-top: 50px;
+    display: flex;
+    border:2px solid green;
+    width:100%;
+}
+#options{
+    float:left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border :2px solid green;
+}
+.option{
+    opacity: 0.6;
+    user-select: none;
+    position: relative;
+    left:-5px;
+    font-size: 1.6rem;
+    text-align: left;
+    width:100%
+}
+.option:hover{
+    opacity: 1;
+    left:10px;
+}
+#fightDisplay{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border:2px solid green;
+    position: relative;
+    left:30px;
+    width:76%;
+}
+.contentCell{
+    width:120px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border :2px solid green;
+}

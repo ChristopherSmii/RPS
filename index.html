@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    
+    <div id="main">
+        <!-- Title of the website -->
+        <div id="title">
+            <div id="titleRock" class="textBorder">Rock</div>
+            <div id="titlePaper" class="textBorder">Paper</div>
+            <div id="titleScissors" class="textBorder">Scissors</div>
+        </div>
+        <!-- Score -->
+        <div id="scoreContainer">
+            <div class="scoreCell"><h1>0</h1><h2 style="color: red;">player</h2></div>
+            <div class="scoreCell"><h1>0</h1><h2 style="color: Green;">AI</h2></div>
+        </div>
+        <!-- Game -->
+        <div id="gameContainer">
+            <div id="options">
+                <div class="option">Rock</div>
+                <div class="option">Paper</div>
+                <div class="option">Scissors</div>
+            </div>
+            <div id="fightDisplay">
+                <div class="contentCell"><h3>You</h3></div>
+                <div class="contentCell"><h3>AI</h3></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./JS/script.js"></script>
+</body>
+</html>
