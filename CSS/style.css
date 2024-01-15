@@ -56,13 +56,14 @@ body{
     color: red;
     text-shadow: 2px 0 #fff, -2px 0 #fff,0px 2px #fff, 0px -2px #fff;
     border-radius: 8px;
-    width:90px
+    width:100px
 }
 .scoreCell h1{
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 .scoreCell h2{
     color:red;
+    font-size: 1.6rem;
 }
 /* Game */
 #gameContainer{
@@ -112,6 +113,15 @@ body{
         display: flex;
         justify-content: start;
         align-items: start;
+        width:auto;
     }
-
+    .scoreCell h1,h2{
+        font-size: 1rem;
+    }
+    .scoreCell h2{
+        font-size: 0.9rem;
+    }
+    .scoreCell{
+        width:60px
+    }
 }
