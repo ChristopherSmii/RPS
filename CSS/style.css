@@ -117,11 +117,11 @@ body{
     }
     #fightDisplay{
         display: flex;
-        justify-content: start;
-        align-items: start;
+        justify-content: center;
+        align-items: center;
         width:auto;
     }
-    .scoreCell h1,h2{
+    .scoreCell h1{
         font-size: 1rem;
     }
     .scoreCell h2{
